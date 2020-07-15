@@ -1,0 +1,85 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #F5F5F5;
+	font-family: 'Segoe UI','Arial';
+}
+
+h1, label, h4{
+	color: #152029;
+}
+
+h1 {
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+
+label{
+	font-size: 11px;
+	opacity: .7;
+}
+
+section.content{
+	width: 1000px;
+	height: 100vh;
+	background: #fff;
+	box-shadow: 0px 0px 10px #CCC;
+	margin: 0 auto;
+}
+
+div.box_form{
+	border-bottom: 1px solid #DDD;
+	padding: 15px 25px;
+	background: #F5F5F5;
+}
+
+div.box_form > form > input, div.box_form > form > textarea {
+	border: 1px solid #ddd;
+	margin-top: 4px;
+	color:#666;
+	border-radius: 3px;
+	padding: 10px 15px;
+}
+
+div.box_form > form > input {
+	width: 275px;
+}
+
+div.box_form > form > textarea {
+	width: 405px;
+	height: 155px;
+}
+
+div.box_form > form > input:focus, div.box_form > form > textarea:focus{
+	outline: 0;
+}
+
+div.box_form > form > input.btn-sub {
+	background: #C0362C;
+	color:#F5F5F5;
+	cursor: pointer;
+	border:0;
+	border-radius: 3px;
+}
+
+div.box_form > form > input.btn-sub:hover{
+	transition: all .3s;
+	box-shadow: 5px 5px 4px #CCC;
+	opacity: .9;
+}
+
+.b_comm {
+	padding: 30px;	
+}
+
+.b_comm:nth-child(even){
+	background-color: #F5F5F5;
+}
+
+.b_comm:nth-child(odd){
+	background-color: #DDD;
+}
